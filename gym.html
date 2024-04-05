@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heath and Fitness</title>
+</head>
+<link
+  href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Balthazar&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  /*css reset*/
+  body {
+
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    margin: 0px;
+    margin: 0px;
+    background: url('abc.jpg');
+  }
+
+  .left {
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+    margin: auto;
+    top: 16px;
+
+  }
+
+  .left img {
+    width: 90px;
+    height: 80px;
+    filter: invert(10%);
+  }
+
+  .left div {
+    text-align: center;
+    line-height: 75%;
+  }
+
+  .mid {
+    display: block;
+    width: 540px;
+    margin: 21px auto;
+    top: 26px;
+
+  }
+
+  .right {
+    position: absolute;
+    display: inline-block;
+    top: 26px;
+    margin: auto;
+    right: 34px;
+
+  }
+
+  .navbar {
+
+    display: inline-block;
+  }
+
+  .navbar li {
+    font-size: 17px;
+    display: inline-block;
+  }
+
+  .navbar li a {
+    color: aliceblue;
+    margin: -20px ;
+    top:12px;
+    
+    background-color: brown;
+    padding: 44px;
+    text-decoration: none;
+
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: rgb(187, 110, 110);
+  }
+
+  .btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 12px;
+    padding: 4px 14px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: rgb(79, 11, 11);
+    text-align: center;
+  }
+
+  .container button {
+    display: block;
+    width: 166px;
+    margin: 2px auto;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+    color: rgb(248, 125, 38);
+    border-color: rgb(47, 23, 23);
+    background-color: rgb(255, 246, 246);
+  }
+
+  .container {
+
+   display: block;
+   border: 5px solid rgb(32, 9, 9);
+   padding: 19px 19px;
+   width: 39%;
+   border-radius: 61px;
+   margin: 116px 27px;
+   border-color: azure;
+   font-size: 19px;
+   text-align: center;
+  }
+
+  .form-group input{
+   margin: 10px 2px;
+    cursor: pointer;
+    text-align: center;
+    padding: 11px 7px;
+    display: block;
+    width: 459px;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .form-group:hover{
+    color: white;
+    background-color: brown;
+    border: rgb(40, 35, 35);
+    text-decoration: underline;
+  }
+  .footer{
+ margin: 11px;
+ padding: -28px 0px;
+ background-color: rgb(100, 94, 94);
+ display:block;
+ width:12px 14px;
+  }
+  .container2{
+    max-width: 1170px;
+    margin: auto;
+  }
+ .container2 ul li{
+  list-style: none;
+
+ }
+ .row{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+ }
+ .footer-col{
+  width: 250px;
+padding: 15px 0px; 
+}
+.container2 li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: burlywood;
+  text-align: left;
+}
+</style>
+
+<body>
+  <header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+      <img src="finalgymlogo.jpg.png" alt="photo">
+      <div class="">
+        Health & Fitness
+      </div>
+    </div>
+    <!-- mid for nav bar -->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us </a></li>
+        <li><a href="#">Fitness calculator</a></li>
+        <li><a href="#">Information</a></li>
+      </ul>
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+      <button class="btn">Contact us</button>
+      <button class="btn">Email</button>
+    </div>
+
+  </header>
+  <div class="container">
+    <h1> “Nothing will work unless you do.”
+      Join the best Gym of Ujjain now - Health & Fitness </h1>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your Name " id="">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your Age " id="">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your Gender " id="">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your Locality " id="">
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+<footer class="footer">
+ <div class="container2">
+<div class="row">
+    <div class="footer-col">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">personal training</a></li>
+        <li><a href="#">online coching</a></li>
+        <li><a href="#">3d body scanning</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">privacy policy</a></li>
+        <li><a href="#">our services</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Information</h3>
+      <ul>
+        <li><a href="#">Gym</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="#">82,manar road maninagar near lancing ujjain m.p</a></li>
+        <li><a href="#">+91876543680</a></li>
+      </ul>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+ </div>
+</footer>
+
+</html>-
